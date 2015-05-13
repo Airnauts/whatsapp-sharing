@@ -1,11 +1,11 @@
 {
   "name": "whatsapp-sharing",
-  "version": "1.3.3",
+  "version": "1.3.2",
   "homepage": "https://github.com/kriskbx/whatsapp-sharing",
   "authors": [
     "kriskbx"
   ],
-  "main": "dist/whatsapp-button.js",
+  "main": "whatsapp sharing button generator",
   "keywords": [
     "whatsapp",
     "sharing",
