@@ -16,7 +16,6 @@ body, html {
 
 .wa_btn {
     background-image: url('button.svg');
-    border: 1px solid rgba(0, 0, 0, 0.1);
     display: inline-block !important;
     position: relative;
     font-family: Arial, sans-serif;
@@ -24,18 +23,16 @@ body, html {
     cursor: pointer;
     font-weight: 400;
     text-transform: none;
-    color: #fff;
-    border-radius: 2px;
-    background-color: #5cbe4a;
     background-repeat: no-repeat;
     line-height: 1.2;
     text-decoration: none;
     text-align: left;
+    height: 16px;
 }
 
 .wa_btn_s {
     font-size: 12px;
-    background-size: 16px;
+    background-size: 23px;
     background-position: 5px 2px;
     padding: 3px 6px 3px 25px;
 }
