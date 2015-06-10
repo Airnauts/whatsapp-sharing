@@ -108,7 +108,7 @@
      * @returns {*}
      */
     WASHAREBTN.prototype.setButtonAttributes = function (b) {
-        var url = b.getAttribute("data-href");
+        var url = b.getAttribute("data-dynamic-href") || b.getAttribute("data-href");
         var text = "?text=" + encodeURIComponent(b.getAttribute("data-text")) + (b.getAttribute("data-text") ? "%20" : "");
 
         if (url) {
